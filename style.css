@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'android';
+    src: url('idroid.otf');
+}
+body{
+    margin: 0px;
+    background-color: #E5E3D6;
+}
+header{
+    font-family: Arial, monospace, sans-serif;
+    background-image: linear-gradient(to top,#024023,#168C55,#80F2A8);
+    width: 100%;
+    padding: 10px;
+}
+.header{
+    color: azure;
+    text-align: center;
+    padding: 10px;
+}
+nav > a{
+    text-decoration: none;
+    color: #5BD9B5;
+    margin: 0px 10px 0px 10px;
+}
+nav > a:hover{
+    padding: 10px;
+    background-color: #409980;
+    color: #012d18;
+}
+
+
+main{
+    box-sizing: border-box; 
+    width: 100%;
+    max-width: 100%;
+    padding: 11px 11px 20px 11px;
+    margin: 0px auto;
+}
+
+.historia{
+    max-width: 800px;
+    margin: -10px auto; /* Centraliza na horizontal */
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+
+}
+.sub{
+    background-image: linear-gradient(to right,#80F2A8,#abf8c6,white);
+    color: #024023;
+    font-family: 'android';
+    font-size: 20px;
+}
+.h1_main{
+    color: #024023;
+    font-family: 'android';
+    font-size: 28px;
+}
+#foto1{
+    overflow: hidden;
+}
+#foto2{
+    text-align: center;
+
+}
+#video{
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    max-width: 100%;
+    padding-bottom: 56.25%;
+}
+#video > iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+    background-color: green;
+     padding: 20px;
+     display: inline-block;
+}
+.lista{
+    border-radius: 15px;
+    margin: 20px auto;
+    background-color: #62e7c1;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    max-width: 100%;
+}
+.lista > p{
+    text-align: center;
+}
+#sub2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    background-color: #024023;
+    border-radius: 15px 15px 0px 0px;
+    padding: 5px;
+}
+#duas-colunas{
+    columns: 2;
+}
+#rodape{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+
+}
